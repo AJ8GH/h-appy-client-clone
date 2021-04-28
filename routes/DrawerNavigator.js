@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import { StyleSheet, Platform, Alert } from 'react-native';
-import { NavigationContainer, Button, useNavigation } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 import {
   createDrawerNavigator, DrawerContentScrollView, DrawerItemList, DrawerItem,
 } from '@react-navigation/drawer';
@@ -13,9 +13,6 @@ import Search from '../views/Search';
 import {
   NIBBLES, APPETISERS, MAINS, DESSERTS,
 } from '../src/CourseDescriptions';
-import SignUp from '../views/SignUp';
-import SignIn from '../views/SignIn';
-import AuthContext from '../src/AuthContext';
 
 const Drawer = createDrawerNavigator();
 
@@ -91,14 +88,12 @@ function SignOutButton(props) {
 }
 
 const DrawerNavigator = ({ state }) => {
-  if (state.userToken) {
     return (
       <Drawer.Navigator
         drawerStyle={styles.drawer}
-        drawerContent={(props) => <SignOutButton {...props} />}
         drawerContentOptions={drawerContentStyles}
       >
-        <Drawer.Screen name="Menu" children={()=><MainMenu userName={state.userName}/>}/>
+        <Drawer.Screen name="Menu" component={MainMenu}/>
         <Drawer.Screen name="About" component={About} />
         <Drawer.Screen name="Nibbles" component={Nibbles} />
         <Drawer.Screen name="Starters" component={Starters} />
@@ -108,24 +103,6 @@ const DrawerNavigator = ({ state }) => {
         <Drawer.Screen name="Search" component={Search} />
       </Drawer.Navigator>
         )
-      } else {
-     return (
-      <Drawer.Navigator
-        drawerStyle={styles.drawer}
-        drawerContentOptions={drawerContentStyles}
-      >
-        <Drawer.Screen name="Menu" children={()=><MainMenu userName={state.userName}/>}/>
-        <Drawer.Screen name="About" component={About} />
-        <Drawer.Screen name="Nibbles" component={Nibbles} />
-        <Drawer.Screen name="Starters" component={Starters} />
-        <Drawer.Screen name="Mains" component={Mains} />
-        <Drawer.Screen name="Desserts" component={Desserts} />
-        <Drawer.Screen name="Search" component={Search} />
-        <Drawer.Screen name="Sign up" component={SignUp} />
-        <Drawer.Screen name="Sign in" component={SignIn} />
-      </Drawer.Navigator>
-        )
-     }
     };
 
 export default DrawerNavigator;

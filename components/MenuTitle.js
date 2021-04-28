@@ -22,11 +22,6 @@ export default function MenuTitle({name}) {
             Feed your Boredom...
           </Text>
         </View>
-        <View style={styles.signintoaddcontainer}>
-          <Text style={styles.signintoaddactivity}>
-            Sign in or sign up to add activities
-          </Text>
-        </View>
         </>
         )
     }
@@ -56,36 +51,5 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 20,
     textAlign: 'center',
-  },
-  signintoaddactivity: {
-    fontFamily: Platform.OS === 'android' ? 'Roboto' : 'Courier',
-    color: '#363946',
-    fontSize: 12,
-    textAlign: 'center'
-  },
-  signintoaddcontainer: {
-    backgroundColor: '#819595',
-    borderRadius: 5,
-    width: windowWidth * 0.93,
-    padding: 10,
-    marginBottom: 5,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 8,
-    },
-    shadowOpacity: 0.44,
-    shadowRadius: 10.32,
-
   }
 });
-
-// flex: 0.1,
-// marginTop: 45,
-// marginBottom: 15,
-// alignItems: 'center',
-// justifyContent: 'center',
-// backgroundColor: '#819595',
-// width: '95%',
-// padding: 25,
-// borderRadius: 7,
