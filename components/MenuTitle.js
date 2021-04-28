@@ -5,27 +5,30 @@ import React from 'react';
 
 const windowWidth = Dimensions.get('window').width;
 
-export default function MenuTitle({name}) {
+export default function MenuTitle({ name }) {
   if (name != null) {
-  const username = name.replace(/['"]+/g, '')
+    const username = name.replace(/['"]+/g, '');
+    return (
+      <View style={styles.titleContainer}>
+        <Text style={styles.menuTitle}>
+          Feed your Boredom,
+          {'\n'}
+          {username}
+          !
+        </Text>
+      </View>
+    );
+  }
   return (
-    <View style={styles.titleContainer}>
-      <Text style={styles.menuTitle}>
-        Feed your Boredom,{'\n'}{username}!
-      </Text>
-    </View> )
-    } else {
-      return (
-        <>
-        <View style={styles.titleContainer}>
-          <Text style={styles.menuTitle}>
-            Feed your Boredom...
-          </Text>
-        </View>
-        </>
-        )
-    }
-};
+    <>
+      <View style={styles.titleContainer}>
+        <Text style={styles.menuTitle}>
+          Feed your Boredom...
+        </Text>
+      </View>
+    </>
+  );
+}
 
 const styles = StyleSheet.create({
   titleContainer: {
@@ -44,12 +47,12 @@ const styles = StyleSheet.create({
     shadowRadius: 10.32,
     elevation: 16,
     marginBottom: '5%',
-    marginTop: '20%'
+    marginTop: '20%',
   },
   menuTitle: {
     fontFamily: Platform.OS === 'android' ? 'Roboto' : 'Chalkduster',
     color: '#fff',
     fontSize: 20,
     textAlign: 'center',
-  }
+  },
 });

@@ -33,9 +33,9 @@ export default function IndividualActivity({ route }) {
       <View style={styles.descriptionContainer}>
         <View style={styles.textContainer}>
           <ScrollView style={{ width: '100%' }}>
-          <Text style={styles.description}>
-            {item.description}
-          </Text>
+            <Text style={styles.description}>
+              {item.description}
+            </Text>
           </ScrollView>
         </View>
 

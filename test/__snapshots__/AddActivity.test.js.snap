@@ -4,9 +4,8 @@ exports[`renders correctly 1`] = `
 <View
   style={
     Object {
-      "alignContent": "flex-start",
       "alignItems": "center",
-      "backgroundColor": "#f8f9d4",
+      "backgroundColor": "#696773",
       "flex": 1,
       "justifyContent": "center",
     }
@@ -16,7 +15,7 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": "#c7524a",
+        "backgroundColor": "#363946",
         "flex": 1,
         "fontSize": 24,
         "fontWeight": "bold",
@@ -24,7 +23,7 @@ exports[`renders correctly 1`] = `
         "justifyContent": "center",
         "maxHeight": 60,
         "position": "absolute",
-        "top": 10,
+        "top": 0,
         "width": "100%",
       }
     }
@@ -33,147 +32,400 @@ exports[`renders correctly 1`] = `
       style={
         Object {
           "alignItems": "center",
+          "color": "#B1B6A6",
           "fontFamily": "Didot",
-          "fontSize": 25,
+          "fontSize": 32,
           "fontWeight": "bold",
           "justifyContent": "center",
+          "marginBottom": 20,
         }
       }
     >
       H-Appy
     </Text>
   </View>
-  <Text>
-     This will be we can add activities as a user 
-  </Text>
   <View
     style={
-      Object {
-        "borderWidth": 2,
-        "margin": 3,
-        "width": "80%",
-      }
-    }
-  >
-    <Text>
-      Activity Type
-    </Text>
-  </View>
-  <View
-    style={
-      Object {
-        "borderWidth": 2,
-        "margin": 3,
-        "width": "80%",
-      }
-    }
-  >
-    <Text>
-      Activity Name
-    </Text>
-    <TextInput
-      allowFontScaling={true}
-      defaultValue=""
-      onChangeText={[Function]}
-      placeholder="enter the name of the activity here"
-      rejectResponderTermination={true}
-      style={
+      Array [
         Object {
-          "height": 40,
-        }
-      }
-      underlineColorAndroid="transparent"
-    />
-  </View>
-  <View>
-    <Text>
-      Accessibility:
-      0
-    </Text>
-    <RNCSlider
-      disabled={false}
-      enabled={true}
-      inverted={false}
-      maximumTrackTintColor="#000000"
-      maximumValue={10}
-      minimumTrackTintColor="#FFFFFF"
-      minimumValue={0}
-      onChange={null}
-      onRNCSliderSlidingComplete={[Function]}
-      onRNCSliderSlidingStart={null}
-      onRNCSliderValueChange={null}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      step={0}
+          "alignItems": "center",
+          "backgroundColor": "#B1B6A6",
+          "borderRadius": 5,
+          "flex": 0.82,
+          "justifyContent": "center",
+          "marginTop": 10,
+          "width": "93%",
+        },
+        Object {
+          "elevation": 4,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 8,
+            "width": 0,
+          },
+          "shadowOpacity": 0.34,
+          "shadowRadius": 5.32,
+        },
+      ]
+    }
+  >
+    <View
       style={
         Array [
           Object {
-            "height": 40,
+            "alignItems": "center",
+            "backgroundColor": "#363946",
+            "borderRadius": 5,
+            "flex": 0.1,
+            "justifyContent": "center",
+            "marginTop": "3%",
+            "padding": 10,
+            "width": "93%",
+            "zIndex": 999,
           },
           Object {
-            "height": 50,
-            "marginTop": 50,
-            "opacity": 1,
-            "width": 300,
+            "elevation": 4,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.34,
+            "shadowRadius": 5.32,
           },
         ]
       }
-      thumbImage={
+    >
+      <TextInput
+        allowFontScaling={true}
+        defaultValue=""
+        editable={true}
+        multiline={true}
+        onChangeText={[Function]}
+        placeholder="Activity name..."
+        placeholderTextColor="#fff"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "color": "#fff",
+            "fontFamily": "Chalkduster",
+            "fontSize": 20,
+            "height": "100%",
+            "padding": 10,
+            "textAlign": "center",
+            "width": 600,
+            "zIndex": 999,
+          }
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+    <View
+      style={
         Object {
-          "__packager_asset": true,
-          "height": 1,
-          "scale": 1,
-          "uri": "file://assets/full/path/to/directory/name.type",
-          "width": 1,
+          "borderRadius": 10,
+          "flex": 0.3,
+          "marginBottom": 10,
+          "marginTop": -70,
+          "width": "80%",
         }
       }
-      value={0}
     />
-  </View>
-  <View>
-    <Text>
-      Price:
-      0
-    </Text>
-    <RNCSlider
-      disabled={false}
-      enabled={true}
-      inverted={false}
-      maximumTrackTintColor="#000000"
-      maximumValue={10}
-      minimumTrackTintColor="#FFFFFF"
-      minimumValue={0}
-      onChange={null}
-      onRNCSliderSlidingComplete={[Function]}
-      onRNCSliderSlidingStart={null}
-      onRNCSliderValueChange={null}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      step={0}
+    <View
       style={
         Array [
           Object {
-            "height": 40,
+            "alignItems": "center",
+            "backgroundColor": "#353846",
+            "borderRadius": 5,
+            "flex": 0.15,
+            "justifyContent": "center",
+            "marginBottom": 15,
+            "width": "93%",
+            "zIndex": 999,
           },
           Object {
-            "height": 50,
-            "marginTop": 50,
-            "opacity": 1,
-            "width": 300,
+            "elevation": 4,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.34,
+            "shadowRadius": 5.32,
           },
         ]
       }
-      thumbImage={
+    >
+      <RNCSlider
+        disabled={false}
+        enabled={true}
+        inverted={false}
+        maximumTrackTintColor="#363946"
+        maximumValue={4}
+        minimumTrackTintColor="#819595"
+        minimumValue={0}
+        onChange={[Function]}
+        onRNCSliderSlidingComplete={null}
+        onRNCSliderSlidingStart={null}
+        onRNCSliderValueChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        step={0}
+        style={
+          Array [
+            Object {
+              "height": 40,
+            },
+            Object {
+              "height": 50,
+              "opacity": 1,
+              "width": 280,
+            },
+          ]
+        }
+        thumbImage={
+          Object {
+            "__packager_asset": true,
+            "height": 1,
+            "scale": 1,
+            "uri": "file://assets/full/path/to/directory/name.type",
+            "width": 1,
+          }
+        }
+        value={0}
+      />
+      <Text
+        style={
+          Object {
+            "color": "#B1B6A6",
+            "fontFamily": "Courier",
+            "fontSize": 16,
+          }
+        }
+      >
+        Cost:
+         
+        	
+         
+        Free :)
+         
+      </Text>
+      <View
+        style={
+          Object {
+            "position": "absolute",
+            "right": 6,
+            "top": 0,
+          }
+        }
+      >
+        Cost button
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#353846",
+            "borderRadius": 5,
+            "flex": 0.15,
+            "justifyContent": "center",
+            "marginBottom": 15,
+            "width": "93%",
+            "zIndex": 999,
+          },
+          Object {
+            "elevation": 4,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.34,
+            "shadowRadius": 5.32,
+          },
+        ]
+      }
+    >
+      <RNCSlider
+        disabled={false}
+        enabled={true}
+        inverted={false}
+        maximumTrackTintColor="#363946"
+        maximumValue={10}
+        minimumTrackTintColor="#819595"
+        minimumValue={1}
+        onChange={[Function]}
+        onRNCSliderSlidingComplete={null}
+        onRNCSliderSlidingStart={null}
+        onRNCSliderValueChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        step={0}
+        style={
+          Array [
+            Object {
+              "height": 40,
+            },
+            Object {
+              "height": 50,
+              "opacity": 1,
+              "width": 280,
+            },
+          ]
+        }
+        thumbImage={
+          Object {
+            "__packager_asset": true,
+            "height": 1,
+            "scale": 1,
+            "uri": "file://assets/full/path/to/directory/name.type",
+            "width": 1,
+          }
+        }
+        value={10}
+      />
+      <Text
+        style={
+          Object {
+            "color": "#B1B6A6",
+            "fontFamily": "Courier",
+            "fontSize": 16,
+          }
+        }
+      >
+        Accessibility Score:
+         
+        	
+         
+        10
+         
+      </Text>
+      <View
+        style={
+          Object {
+            "position": "absolute",
+            "right": 6,
+            "top": 0,
+          }
+        }
+      >
+        Accessibility button
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "borderRadius": 10,
+            "flex": 0.3,
+            "marginBottom": 10,
+            "marginTop": -70,
+            "width": "80%",
+          },
+          Object {
+            "marginTop": -80,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#363946",
+            "borderRadius": 5,
+            "flex": 0.2,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "padding": 10,
+            "width": "93%",
+            "zIndex": 999,
+          },
+          Object {
+            "elevation": 4,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.34,
+            "shadowRadius": 5.32,
+          },
+        ]
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        defaultValue=""
+        editable={true}
+        multiline={true}
+        onChangeText={[Function]}
+        placeholder="Activity description..."
+        placeholderTextColor="#B1B6A6"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "color": "#B1B6A6",
+            "fontFamily": "Courier",
+            "fontSize": 16,
+            "height": 90,
+            "textAlign": "center",
+            "width": 600,
+            "zIndex": 999,
+          }
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#363946",
+        "borderRadius": 8,
+        "bottom": 15,
+        "justifyContent": "center",
+        "marginLeft": 8,
+        "paddingBottom": 10,
+        "paddingTop": 10,
+        "position": "absolute",
+        "width": "93%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
         Object {
-          "__packager_asset": true,
-          "height": 1,
-          "scale": 1,
-          "uri": "file://assets/full/path/to/directory/name.type",
-          "width": 1,
+          "opacity": 1,
         }
       }
-      value={0}
-    />
+    >
+      <Text
+        style={
+          Object {
+            "color": "#B1B6A6",
+            "fontFamily": "Courier",
+            "fontSize": 20,
+          }
+        }
+      >
+        Add
+      </Text>
+    </View>
   </View>
 </View>
 `;

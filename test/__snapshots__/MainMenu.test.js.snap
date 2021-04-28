@@ -5,9 +5,10 @@ exports[`MainMenu renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "#f8f9d4",
+      "backgroundColor": "#696773",
       "flex": 1,
       "justifyContent": "center",
+      "width": 750,
     }
   }
 >
@@ -15,7 +16,7 @@ exports[`MainMenu renders correctly 1`] = `
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": "#c7524a",
+        "backgroundColor": "#363946",
         "flex": 1,
         "fontSize": 24,
         "fontWeight": "bold",
@@ -23,7 +24,7 @@ exports[`MainMenu renders correctly 1`] = `
         "justifyContent": "center",
         "maxHeight": 60,
         "position": "absolute",
-        "top": 10,
+        "top": 0,
         "width": "100%",
       }
     }
@@ -32,10 +33,12 @@ exports[`MainMenu renders correctly 1`] = `
       style={
         Object {
           "alignItems": "center",
+          "color": "#B1B6A6",
           "fontFamily": "Didot",
-          "fontSize": 25,
+          "fontSize": 32,
           "fontWeight": "bold",
           "justifyContent": "center",
+          "marginBottom": 20,
         }
       }
     >
@@ -43,26 +46,284 @@ exports[`MainMenu renders correctly 1`] = `
     </Text>
   </View>
   <View
-    accessible={true}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "opacity": 1,
+        "alignItems": "center",
+        "backgroundColor": "#363946",
+        "borderRadius": 7,
+        "elevation": 16,
+        "flex": 0.2,
+        "justifyContent": "center",
+        "marginBottom": "5%",
+        "marginTop": "20%",
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 8,
+          "width": 0,
+        },
+        "shadowOpacity": 0.44,
+        "shadowRadius": 10.32,
+        "width": 697.5,
       }
     }
   >
-    <Text>
-      About this App
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontFamily": "Chalkduster",
+          "fontSize": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      Feed your Boredom...
     </Text>
   </View>
-  <View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "elevation": 4,
+        "flex": 0.8,
+        "justifyContent": "center",
+        "overflow": "scroll",
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 8,
+          "width": 0,
+        },
+        "shadowOpacity": 0.34,
+        "shadowRadius": 5.32,
+        "width": 750,
+      }
+    }
+  >
+    <RCTScrollView
+      collapsable={false}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+    >
+      <View>
+        <View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#B1B6A6",
+                "borderColor": "grey",
+                "borderRadius": 7,
+                "borderStyle": "solid",
+                "borderWidth": 1,
+                "fontSize": 50,
+                "marginHorizontal": 10,
+                "marginVertical": 5,
+                "opacity": 1,
+                "padding": 5,
+                "width": 697.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#363946",
+                    "fontFamily": "Didot",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                    "padding": 25,
+                  }
+                }
+              >
+                Nibbles
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#B1B6A6",
+                "borderColor": "grey",
+                "borderRadius": 7,
+                "borderStyle": "solid",
+                "borderWidth": 1,
+                "fontSize": 50,
+                "marginHorizontal": 10,
+                "marginVertical": 5,
+                "opacity": 1,
+                "padding": 5,
+                "width": 697.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#363946",
+                    "fontFamily": "Didot",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                    "padding": 25,
+                  }
+                }
+              >
+                Appetisers
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#B1B6A6",
+                "borderColor": "grey",
+                "borderRadius": 7,
+                "borderStyle": "solid",
+                "borderWidth": 1,
+                "fontSize": 50,
+                "marginHorizontal": 10,
+                "marginVertical": 5,
+                "opacity": 1,
+                "padding": 5,
+                "width": 697.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#363946",
+                    "fontFamily": "Didot",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                    "padding": 25,
+                  }
+                }
+              >
+                Mains
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#B1B6A6",
+                "borderColor": "grey",
+                "borderRadius": 7,
+                "borderStyle": "solid",
+                "borderWidth": 1,
+                "fontSize": 50,
+                "marginHorizontal": 10,
+                "marginVertical": 5,
+                "opacity": 1,
+                "padding": 5,
+                "width": 697.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#363946",
+                    "fontFamily": "Didot",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                    "padding": 25,
+                  }
+                }
+              >
+                Desserts
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#819595",
+        "bottom": 0,
+        "flex": 0.2,
+        "height": "4%",
+        "justifyContent": "center",
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
     <View
       accessible={true}
       focusable={true}
@@ -75,177 +336,20 @@ exports[`MainMenu renders correctly 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "alignItems": "center",
-          "borderColor": "#240037",
-          "borderRadius": 25,
-          "borderStyle": "solid",
-          "borderWidth": 1,
-          "fontSize": 50,
-          "marginHorizontal": 10,
-          "marginVertical": 5,
           "opacity": 1,
-          "padding": 5,
-          "width": 250,
         }
       }
     >
-      <View
+      <Text
         style={
           Object {
-            "alignItems": "center",
-            "flexDirection": "row",
+            "color": "#363946",
+            "fontFamily": "Courier",
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "fontFamily": "Didot",
-              "fontSize": 30,
-            }
-          }
-        >
-          Nibbles
-        </Text>
-      </View>
-    </View>
-    <View
-      accessible={true}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "alignItems": "center",
-          "borderColor": "#240037",
-          "borderRadius": 25,
-          "borderStyle": "solid",
-          "borderWidth": 1,
-          "fontSize": 50,
-          "marginHorizontal": 10,
-          "marginVertical": 5,
-          "opacity": 1,
-          "padding": 5,
-          "width": 250,
-        }
-      }
-    >
-      <View
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-          }
-        }
-      >
-        <Text
-          style={
-            Object {
-              "fontFamily": "Didot",
-              "fontSize": 30,
-            }
-          }
-        >
-          Appetisers
-        </Text>
-      </View>
-    </View>
-    <View
-      accessible={true}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "alignItems": "center",
-          "borderColor": "#240037",
-          "borderRadius": 25,
-          "borderStyle": "solid",
-          "borderWidth": 1,
-          "fontSize": 50,
-          "marginHorizontal": 10,
-          "marginVertical": 5,
-          "opacity": 1,
-          "padding": 5,
-          "width": 250,
-        }
-      }
-    >
-      <View
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-          }
-        }
-      >
-        <Text
-          style={
-            Object {
-              "fontFamily": "Didot",
-              "fontSize": 30,
-            }
-          }
-        >
-          Mains
-        </Text>
-      </View>
-    </View>
-    <View
-      accessible={true}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "alignItems": "center",
-          "borderColor": "#240037",
-          "borderRadius": 25,
-          "borderStyle": "solid",
-          "borderWidth": 1,
-          "fontSize": 50,
-          "marginHorizontal": 10,
-          "marginVertical": 5,
-          "opacity": 1,
-          "padding": 5,
-          "width": 250,
-        }
-      }
-    >
-      <View
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-          }
-        }
-      >
-        <Text
-          style={
-            Object {
-              "fontFamily": "Didot",
-              "fontSize": 30,
-            }
-          }
-        >
-          Desserts
-        </Text>
-      </View>
+        About this App
+      </Text>
     </View>
   </View>
 </View>

@@ -2,15 +2,15 @@
 import React, { useState } from 'react';
 import Slider from '@react-native-community/slider';
 import {
-  Text, View, TextInput, StyleSheet, TouchableOpacity, Picker, Platform, Dimensions, Alert
+  Text, View, TextInput, StyleSheet, TouchableOpacity, Platform, Dimensions, Alert,
 } from 'react-native';
-// import { Picker } from '@react-native-picker/picker';
+import { Picker } from '@react-native-picker/picker';
 import { useNavigation } from '@react-navigation/native';
 import Header from '../components/Header';
 import { storeData, doesActivityNameExist, addToUserData } from '../src/UserData';
 import { FetchCategories } from '../src/FetchActivities';
-import AccessibilityHelpButton from '../components/AccessibilityHelpButton'
-import CostHelpButton from '../components/CostHelpButton'
+import AccessibilityHelpButton from '../components/AccessibilityHelpButton';
+import CostHelpButton from '../components/CostHelpButton';
 
 const windowWidth = Dimensions.get('window').width;
 
@@ -21,7 +21,6 @@ export default function AddActivity() {
   const [accessibility, setAccessibility] = useState(10);
   const [price, setPrice] = useState(0);
   const [category, setCategory] = useState([]);
-
   const categories = FetchCategories();
 
   return (
@@ -106,7 +105,6 @@ export default function AddActivity() {
   );
 }
 
-
 function AccessibilitySlider(props) {
   const { accessibility, setAccessibility } = props;
   return (
@@ -127,17 +125,18 @@ function AccessibilitySlider(props) {
         {'\t'}
         {' '}
         {accessibility}
-        {' '}</Text>
-        <View
-          style={{
-            top: 0,
-            right: 6,
-            position: 'absolute',
-          }}
-        >
-    <AccessibilityHelpButton/>
-    </View>
+        {' '}
+      </Text>
+      <View
+        style={{
+          top: 0,
+          right: 6,
+          position: 'absolute',
+        }}
+      >
+        <AccessibilityHelpButton />
       </View>
+    </View>
   );
 }
 
@@ -145,31 +144,31 @@ function PriceSlider(props) {
   const { price, setPrice } = props;
   return (
     <View style={[styles.sliderContainer, styles.shadow]}>
-    <Slider
-      style={styles.slider}
-      minimumValue={0}
-      maximumValue={4}
-      minimumTrackTintColor="#819595"
-      maximumTrackTintColor="#363946"
-      onValueChange={(value) => setPrice(Math.ceil(value))}
-    />
-    <Text style={styles.sliderText}>
-      Cost:
-      {' '}
-      {'\t'}
-      {' '}
-      {'£ '.repeat(price) || 'Free :)'}
-      {' '}
+      <Slider
+        style={styles.slider}
+        minimumValue={0}
+        maximumValue={4}
+        minimumTrackTintColor="#819595"
+        maximumTrackTintColor="#363946"
+        onValueChange={(value) => setPrice(Math.ceil(value))}
+      />
+      <Text style={styles.sliderText}>
+        Cost:
+        {' '}
+        {'\t'}
+        {' '}
+        {'£ '.repeat(price) || 'Free :)'}
+        {' '}
       </Text>
       <View
-          style={{
-            top: 0,
-            right: 6,
-            position: 'absolute',
-          }}
-        >
-    <CostHelpButton/>
-    </View>
+        style={{
+          top: 0,
+          right: 6,
+          position: 'absolute',
+        }}
+      >
+        <CostHelpButton />
+      </View>
     </View>
   );
 }
@@ -331,5 +330,5 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.34,
     shadowRadius: 5.32,
     elevation: 4,
-  }
+  },
 });

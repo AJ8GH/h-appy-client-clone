@@ -45,7 +45,6 @@ export default function EditActivity({ route }) {
           />
         </View>
 
-
         <View style={styles.pickerContainer}>
           <Picker
             style={styles.picker}
@@ -63,7 +62,6 @@ export default function EditActivity({ route }) {
             <Picker.Item label="Desserts" value="desserts" />
           </Picker>
         </View>
-
 
         <AccessibilitySlider
           accessibility={accessibility}
@@ -86,8 +84,6 @@ export default function EditActivity({ route }) {
             {categories.map((item, index) => <Picker.Item label={item} value={item} key={index} />)}
           </Picker>
         </View>
-
-
 
         <View style={[styles.descriptionContainer, styles.shadow]}>
           <TextInput
@@ -178,7 +174,7 @@ function SubmitButton(props) {
     isThisAPIData,
   } = props;
 
-  const buttonText = (isThisAPIData) ? "Add to Favourites" : "Save Edit";
+  const buttonText = (isThisAPIData) ? 'Add to Favourites' : 'Save Edit';
   return (
     <View style={styles.submitButtonContainer}>
       <TouchableOpacity
@@ -338,5 +334,5 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.34,
     shadowRadius: 5.32,
     elevation: 4,
-  }
+  },
 });

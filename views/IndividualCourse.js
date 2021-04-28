@@ -145,6 +145,6 @@ const styles = StyleSheet.create({
     shadowRadius: 5.32,
     elevation: 4,
     paddingLeft: 5,
-    paddingRight: 5
+    paddingRight: 5,
   },
 });

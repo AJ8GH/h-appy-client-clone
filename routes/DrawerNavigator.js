@@ -87,23 +87,21 @@ function SignOutButton(props) {
   );
 }
 
-const DrawerNavigator = ({ state }) => {
-    return (
-      <Drawer.Navigator
-        drawerStyle={styles.drawer}
-        drawerContentOptions={drawerContentStyles}
-      >
-        <Drawer.Screen name="Menu" component={MainMenu}/>
-        <Drawer.Screen name="About" component={About} />
-        <Drawer.Screen name="Nibbles" component={Nibbles} />
-        <Drawer.Screen name="Starters" component={Starters} />
-        <Drawer.Screen name="Mains" component={Mains} />
-        <Drawer.Screen name="Desserts" component={Desserts} />
-        <Drawer.Screen name="Create a Recipe" component={AddActivity} />
-        <Drawer.Screen name="Search" component={Search} />
-      </Drawer.Navigator>
-        )
-    };
+const DrawerNavigator = ({ state }) => (
+  <Drawer.Navigator
+    drawerStyle={styles.drawer}
+    drawerContentOptions={drawerContentStyles}
+  >
+    <Drawer.Screen name="Menu" component={MainMenu} />
+    <Drawer.Screen name="About" component={About} />
+    <Drawer.Screen name="Nibbles" component={Nibbles} />
+    <Drawer.Screen name="Starters" component={Starters} />
+    <Drawer.Screen name="Mains" component={Mains} />
+    <Drawer.Screen name="Desserts" component={Desserts} />
+    <Drawer.Screen name="Create a Recipe" component={AddActivity} />
+    <Drawer.Screen name="Search" component={Search} />
+  </Drawer.Navigator>
+);
 
 export default DrawerNavigator;
 
