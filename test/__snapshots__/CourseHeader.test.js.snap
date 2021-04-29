@@ -4,7 +4,9 @@ exports[`renders correctly 1`] = `
 <View
   styles={
     Object {
+      "alignItems": "center",
       "flex": 1,
+      "justifyContent": "center",
       "maxHeight": 50,
     }
   }
@@ -12,8 +14,10 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
+        "color": "#353746",
         "fontFamily": "Didot",
         "fontSize": 40,
+        "textAlign": "center",
       }
     }
   />

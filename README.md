@@ -79,7 +79,7 @@ Back-end:
 
 ---
 
-<div style="text-align: right"><a href="#makers-bnb">Back to top</a></div>
+<div style="text-align: right"><a href="#h-appy">Back to top</a></div>
 
 ## Installation
 
@@ -101,21 +101,16 @@ Install dependencies:
 npm i
 ```
 
-You will need to have Expo CLI installed to run the app. 
+Start the server:
 
-If running the app from your Mac:
+```
+npm start
+```
 
-[instructions]
+You will need to have Expo CLI installed to run the app. You will also need Xcode installed to run the app on an iOS simulator, and Android Studio installed to run it on an Andrid virtual machine.
 
-If running the app from an Android phone:
+press `I` once the server is running to launch the app on an iOS simulator, press `A` to open it in an Android simulator.
 
-[instructions]
-
-If running the app from an iPhone:
-
-[instructions]
-
----
 
 <div style="text-align: right"><a href="#makers-bnb">Back to top</a></div>
 

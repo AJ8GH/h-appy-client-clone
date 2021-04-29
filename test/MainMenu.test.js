@@ -3,6 +3,10 @@ import renderer from 'react-test-renderer'
 import MainMenu from '../views/MainMenu'
 import FetchActivities from '../src/FetchActivities';
 import { useNavigation } from '@react-navigation/native';
+import SilenceLog from '../src/SilenceLog'
+
+jest.mock('../src/SilenceLog');
+FetchActivities.mockImplementation();
 
 jest.mock('../src/FetchActivities');
 FetchActivities.mockImplementation(() => 'Fetch request mocked');

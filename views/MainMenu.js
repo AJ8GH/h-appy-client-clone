@@ -16,6 +16,7 @@ import FetchActivities from '../src/FetchActivities';
 import IndividualActivityButton from '../components/IndividualActivityButton';
 import AboutButton from '../components/AboutButton';
 import MenuTitle from '../components/MenuTitle';
+import SilenceLog from '../src/SilenceLog'
 
 const windowWidth = Dimensions.get('window').width;
 
@@ -23,7 +24,7 @@ function pressHandler() {
   Alert.alert('No Network connection', "We can't fetch suggestions. Please try again later.");
 }
 
-export default function MainMenu({userName}) {
+export default function MainMenu({ userName }) {
   const [userData, setUserData] = useState(emptyUserData);
   const isFocused = useIsFocused();
 
@@ -37,14 +38,12 @@ export default function MainMenu({userName}) {
 
   const navigation = useNavigation();
 
-  useEffect(() => {
-    LogBox.ignoreLogs(['VirtualizedLists should never be nested']);
-  }, []);
+  SilenceLog()
 
   return (
     <View style={styles.container}>
       <Header />
-      <MenuTitle name={userName}/>
+      <MenuTitle name={userName} />
 
       <View style={styles.menuContainer}>
         <ScrollView>

@@ -1,5 +1,5 @@
-import React, { Component, useEffect, useState } from 'react';
-import { DrawerActions, useNavigation } from '@react-navigation/native';
+import React from 'react';
+import { useNavigation } from '@react-navigation/native';
 import {
   StyleSheet, Text, View, Dimensions, TouchableOpacity, Platform, ScrollView,
 } from 'react-native';
@@ -33,9 +33,9 @@ export default function IndividualActivity({ route }) {
       <View style={styles.descriptionContainer}>
         <View style={styles.textContainer}>
           <ScrollView style={{ width: '100%' }}>
-          <Text style={styles.description}>
-            {item.description}
-          </Text>
+            <Text style={styles.description}>
+              {item.description}
+            </Text>
           </ScrollView>
         </View>
 
