@@ -4,12 +4,13 @@ import App from '../App';
 import DrawerNavigator from '../routes/DrawerNavigator'
 import { Platform } from 'react-native';
 import AppNavigator from '../routes/AppNavigator';
+import SearchResults from '../views/SearchResults'
 
-jest.mock('@react-navigation');
-AppNavigator.mockImplementation();
+jest.mock('../views/SearchResults');
+SearchResults.mockImplementation(() => 'SearchResults mocked');
 
 jest.mock('../routes/AppNavigator');
-AppNavigator.mockImplementation();
+AppNavigator.mockImplementation(() => 'AppNavigator mocked');
 
 jest.mock('react-native');
 Platform.mockImplementation(() => {OS: 'iOS'});

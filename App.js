@@ -1,8 +1,7 @@
 /* eslint-disable no-use-before-define */
 import React from 'react';
-import fetch from 'node-fetch';
 import {
-  StyleSheet, Platform, SafeAreaView, ScrollView, StatusBar,
+  StyleSheet, Platform, SafeAreaView, StatusBar,
 } from 'react-native';
 import AppNavigator from './routes/AppNavigator';
 
