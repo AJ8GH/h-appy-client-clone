@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619718541034" clover="3.2.0">
-  <project timestamp="1619718541034" name="All files">
-    <metrics statements="333" coveredstatements="39" conditionals="135" coveredconditionals="11" methods="127" coveredmethods="6" elements="595" coveredelements="56" complexity="0" loc="333" ncloc="333" packages="5" files="27" classes="27"/>
+<coverage generated="1619722643311" clover="3.2.0">
+  <project timestamp="1619722643312" name="All files">
+    <metrics statements="333" coveredstatements="0" conditionals="135" coveredconditionals="0" methods="127" coveredmethods="0" elements="595" coveredelements="0" complexity="0" loc="333" ncloc="333" packages="5" files="27" classes="27"/>
     <package name="h-appy-client-clone">
-      <metrics statements="4" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="4" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="App.js" path="/Users/adamjonas/Projects/makers/week-12/h-appy-client-clone/App.js">
         <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="10" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
       </file>
       <file name="stockData.js" path="/Users/adamjonas/Projects/makers/week-12/h-appy-client-clone/stockData.js">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
       </file>
     </package>
     <package name="h-appy-client-clone.components">
-      <metrics statements="53" coveredstatements="10" conditionals="24" coveredconditionals="4" methods="21" coveredmethods="3"/>
+      <metrics statements="53" coveredstatements="0" conditionals="24" coveredconditionals="0" methods="21" coveredmethods="0"/>
       <file name="AboutButton.js" path="/Users/adamjonas/Projects/makers/week-12/h-appy-client-clone/components/AboutButton.js">
-        <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <metrics statements="4" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
       </file>
       <file name="AccessibilityHelpButton.js" path="/Users/adamjonas/Projects/makers/week-12/h-appy-client-clone/components/AccessibilityHelpButton.js">
         <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
@@ -73,13 +73,13 @@
         <line num="72" count="0" type="stmt"/>
       </file>
       <file name="Header.js" path="/Users/adamjonas/Projects/makers/week-12/h-appy-client-clone/components/Header.js">
-        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
+        <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
       </file>
       <file name="IndividualActivityButton.js" path="/Users/adamjonas/Projects/makers/week-12/h-appy-client-clone/components/IndividualActivityButton.js">
-        <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="8" count="1" type="stmt"/>
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
@@ -92,13 +92,13 @@
         <line num="24" count="0" type="stmt"/>
       </file>
       <file name="MenuTitle.js" path="/Users/adamjonas/Projects/makers/week-12/h-appy-client-clone/components/MenuTitle.js">
-        <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="9" count="1" type="cond" truecount="1" falsecount="1"/>
+        <metrics statements="6" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="10" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
       </file>
     </package>
     <package name="h-appy-client-clone.routes">
@@ -134,7 +134,7 @@
       </file>
     </package>
     <package name="h-appy-client-clone.src">
-      <metrics statements="71" coveredstatements="9" conditionals="7" coveredconditionals="0" methods="22" coveredmethods="0"/>
+      <metrics statements="71" coveredstatements="0" conditionals="7" coveredconditionals="0" methods="22" coveredmethods="0"/>
       <file name="AuthContext.js" path="/Users/adamjonas/Projects/makers/week-12/h-appy-client-clone/src/AuthContext.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="3" count="0" type="stmt"/>
@@ -169,23 +169,23 @@
         <line num="7" count="0" type="stmt"/>
       </file>
       <file name="UserData.js" path="/Users/adamjonas/Projects/makers/week-12/h-appy-client-clone/src/UserData.js">
-        <metrics statements="50" coveredstatements="9" conditionals="7" coveredconditionals="0" methods="10" coveredmethods="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="78" count="1" type="stmt"/>
+        <metrics statements="50" coveredstatements="0" conditionals="7" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
         <line num="79" count="0" type="stmt"/>
         <line num="80" count="0" type="stmt"/>
         <line num="81" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="83" count="0" type="stmt"/>
-        <line num="87" count="1" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
         <line num="88" count="0" type="stmt"/>
         <line num="89" count="0" type="stmt"/>
         <line num="90" count="0" type="stmt"/>
         <line num="91" count="0" type="stmt"/>
         <line num="92" count="0" type="stmt"/>
         <line num="94" count="0" type="stmt"/>
-        <line num="98" count="1" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
         <line num="99" count="0" type="stmt"/>
         <line num="100" count="0" type="stmt"/>
         <line num="101" count="0" type="stmt"/>
@@ -197,13 +197,13 @@
         <line num="108" count="0" type="stmt"/>
         <line num="109" count="0" type="stmt"/>
         <line num="110" count="0" type="stmt"/>
-        <line num="114" count="1" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
         <line num="117" count="0" type="stmt"/>
         <line num="118" count="0" type="stmt"/>
         <line num="119" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="120" count="0" type="stmt"/>
         <line num="121" count="0" type="stmt"/>
-        <line num="126" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="126" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="127" count="0" type="stmt"/>
         <line num="128" count="0" type="stmt"/>
         <line num="129" count="0" type="stmt"/>
@@ -211,7 +211,7 @@
         <line num="131" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="132" count="0" type="stmt"/>
         <line num="135" count="0" type="stmt"/>
-        <line num="139" count="1" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
         <line num="140" count="0" type="stmt"/>
         <line num="141" count="0" type="stmt"/>
         <line num="142" count="0" type="stmt"/>
@@ -223,7 +223,7 @@
       </file>
     </package>
     <package name="h-appy-client-clone.views">
-      <metrics statements="182" coveredstatements="18" conditionals="100" coveredconditionals="7" methods="70" coveredmethods="3"/>
+      <metrics statements="182" coveredstatements="0" conditionals="100" coveredconditionals="0" methods="70" coveredmethods="0"/>
       <file name="About.js" path="/Users/adamjonas/Projects/makers/week-12/h-appy-client-clone/views/About.js">
         <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="16" count="0" type="stmt"/>
@@ -342,36 +342,36 @@
         <line num="57" count="0" type="stmt"/>
       </file>
       <file name="MainMenu.js" path="/Users/adamjonas/Projects/makers/week-12/h-appy-client-clone/views/MainMenu.js">
-        <metrics statements="29" coveredstatements="18" conditionals="14" coveredconditionals="7" methods="10" coveredmethods="3"/>
-        <line num="21" count="1" type="stmt"/>
+        <metrics statements="29" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="21" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="43" count="1" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
         <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="62" count="0" type="stmt"/>
         <line num="74" count="0" type="stmt"/>
-        <line num="92" count="4" type="stmt"/>
-        <line num="93" count="4" type="stmt"/>
-        <line num="94" count="4" type="stmt"/>
-        <line num="95" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="97" count="4" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="95" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="97" count="0" type="stmt"/>
         <line num="107" count="0" type="stmt"/>
         <line num="114" count="0" type="stmt"/>
-        <line num="122" count="1" type="stmt"/>
-        <line num="123" count="1" type="stmt"/>
-        <line num="126" count="1" type="stmt"/>
-        <line num="127" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="127" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="129" count="0" type="stmt"/>
-        <line num="133" count="1" type="stmt"/>
-        <line num="159" count="1" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="159" count="0" type="stmt"/>
       </file>
       <file name="Search.js" path="/Users/adamjonas/Projects/makers/week-12/h-appy-client-clone/views/Search.js">
         <metrics statements="18" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="9" coveredmethods="0"/>

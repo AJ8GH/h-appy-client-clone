@@ -1,5 +1,5 @@
-import React, { Component, useEffect, useState } from 'react';
-import { DrawerActions, useNavigation } from '@react-navigation/native';
+import React from 'react';
+import { useNavigation } from '@react-navigation/native';
 import {
   StyleSheet, Text, View, Dimensions, TouchableOpacity, Platform, ScrollView,
 } from 'react-native';
