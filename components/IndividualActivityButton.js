@@ -1,8 +1,6 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
-import {
-  Text, TouchableOpacity, ActivityIndicator,
-} from 'react-native';
+import { Text, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
 const IndividualActivityButton = ({ item }) => {

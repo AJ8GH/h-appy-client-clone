@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-  View, Text, StyleSheet, Platform,
-} from 'react-native';
+import { View, Text, StyleSheet, Platform } from 'react-native';
 
 export default function CourseHeader(props) {
   const { header } = props;
