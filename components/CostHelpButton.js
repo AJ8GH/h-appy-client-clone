@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-  Text, TouchableOpacity, ActivityIndicator, Alert,
-} from 'react-native';
+import { Text, TouchableOpacity, Alert } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
 const CostHelpButton = () => (
@@ -9,7 +7,8 @@ const CostHelpButton = () => (
     style={{ paddingTop: 5 }}
     onPress={() => Alert.alert(
       'Cost',
-      'Rating of Free to ££££, categorising activities by how much they will set you back.',
+      ['Rating of Free to ££££, categorising activities ',
+      'by how much they will set you back.'].join(''),
     )}
   >
     <Text>
