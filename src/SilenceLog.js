@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { LogBox } from 'react-native';
 

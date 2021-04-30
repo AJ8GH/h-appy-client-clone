@@ -16,7 +16,7 @@ import FetchActivities from '../src/FetchActivities';
 import IndividualActivityButton from '../components/IndividualActivityButton';
 import AboutButton from '../components/AboutButton';
 import MenuTitle from '../components/MenuTitle';
-import SilenceLog from '../src/SilenceLog'
+import SilenceLog from '../src/SilenceLog';
 
 const windowWidth = Dimensions.get('window').width;
 
@@ -38,7 +38,7 @@ export default function MainMenu({ userName }) {
 
   const navigation = useNavigation();
 
-  SilenceLog()
+  SilenceLog();
 
   return (
     <View style={styles.container}>
